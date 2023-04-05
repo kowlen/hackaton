@@ -1,5 +1,5 @@
 <?php
-  error_reporting(E_ALL);
+  error_reporting(E_ALL); 
   ini_set('error_reporting', E_ALL);
   ini_set("display_errors", 1);
   define('TMVC_ERROR_HANDLING',1);
@@ -10,6 +10,7 @@
   require(TMVC_BASEDIR . 'sysfiles' . DS . 'TinyMVC.php');
   session_start();
   $modules = array();
+  $asd = "text";
   $tmvc = new tmvc();
   $tmvc = tmvc::instance();
   $tmvc->main();
