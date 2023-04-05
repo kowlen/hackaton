@@ -1,0 +1,32 @@
+php_flag display_errors On
+#показать все ошибки кроме предупреждений (Notice)
+php_value error_reporting "E_ALL & ~E_NOTICE"
+php_flag session.use_only_cookies on
+
+php_value date.timezone "Asia/Novosibirsk"
+
+#Редерикт с www
+#<IfModule mod_rewrite.c>
+#Options +FollowSymLinks
+#RewriteEngine on
+#</IfModule>
+Options -Indexes
+RewriteEngine On
+# This will enable the Rewrite capabilities
+
+RewriteCond %{HTTPS} !=on
+# This checks to make sure the connection is not already HTTPS
+
+# RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+# This rule will redirect users from their original location, to the same location but using HTTPS.
+# i.e.  http://www.example.com/foo/ to https://www.example.com/foo/
+# The leading slash is made optional so that this will work either in httpd.conf
+# or .htaccess context
+
+RewriteCond %{REQUEST_URI} /+[^\.]+$
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [PT,L,QSA]
+RewriteRule photos/emp_(.*).jpg$ /gate/getEmployeePhoto/?employeeId=$1 [L]

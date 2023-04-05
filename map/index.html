@@ -1,0 +1,198 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="../tpl/layouts/styles/jquery.ui.css">
+        <script src="../tpl/reports/js/jquery.min.js" type="text/javascript"></script>
+        <script src="../tpl/reports/js/ui.core.js" type="text/javascript"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+
+
+        <style>
+            html{
+                background: #2f3c48;
+            }
+            svg {
+                width: 1075px;
+                height: 696px;
+                background: url('./data/map.png');
+                background-size: 100%;
+            }
+            polygon {
+                /*stroke: rgba(255,0,0, 0.5);*/
+                fill: rgba(0,0,0,0.1); /* фон */
+                stroke-width: 1; /* толщина границы */
+            }
+            polygon:hover {
+                fill: rgba(255,255,255,.3);
+            }
+            #desc{
+                background: #fff;
+                width: 240px;
+                padding: 10px;
+                height: 100%;
+            }
+        </style>
+        <script>
+            $(function() {
+                $( "#obj1" ).tooltip({
+                    content: $('#data1').html(),
+                    track:true
+                });
+                $( "#obj2" ).tooltip({
+                    content: $('#data2').html(),
+                    track:true
+                });
+                $( "#obj3" ).tooltip({
+                    content: $('#data3').html(),
+                    track:true
+                });
+                $( "#obj4" ).tooltip({
+                    content: $('#data4').html(),
+                    track:true
+                });
+                $( "#obj5" ).tooltip({
+                    content: $('#data5').html(),
+                    track:true
+                });
+                $( "#obj6" ).tooltip({
+                    content: $('#data6').html(),
+                    track:true
+                });
+                $( "#obj7" ).tooltip({
+                    content: $('#data7').html(),
+                    track:true
+                });
+                $( "#obj8" ).tooltip({
+                    content: $('#data8').html(),
+                    track:true
+                });
+                $( "#obj9" ).tooltip({
+                    content: $('#data9').html(),
+                    track:true
+                });
+                $( "#obj10" ).tooltip({
+                    content: $('#data10').html(),
+                    track:true
+                });
+                $( "#obj11" ).tooltip({
+                    content: $('#data11').html(),
+                    track:true
+                });
+                $( "#obj12" ).tooltip({
+                    content: $('#data12').html(),
+                    track:true
+                });
+                $( "#obj1" ).click(function() {
+                    $("#desc").html($("#data1obj").html());
+                });
+                $( "#obj2" ).click(function() {
+                    $("#desc").html($("#data2obj").html());
+                });
+                $( "#obj3" ).click(function() {
+                    $("#desc").html($("#data3obj").html());
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+        <table border=1 style="margin:0 auto;">
+            <tr>
+                <td colspan=2 >
+                    <img src='./data/menu.png' style="width: 1341px;">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg>
+                        <a xlink:href="#1" title=""><polygon id="obj1" class="obj" points="108,170, 129,170, 134, 181, 159,184, 183,180, 200,173, 218,170, 263,132, 231,95"/></a>
+                        <a xlink:href="#2" title=""><polygon id="obj2" class="obj" points="288,138, 291,154, 298,160, 335,156, 339,167, 567,170, 562,131, 378,120, 363,121"/></a>
+                        <a xlink:href="#3" title=""><polygon id="obj3" class="obj" points="735,119, 701,147, 702,164, 713,170, 998,170, 1012,114, 997,64, 987,65, 855,84, 848,107"/></a>
+                        <a xlink:href="#4" title=""><polygon id="obj4" class="obj" points="619,142, 613,179, 618,199, 543,199, 596,250, 634,250, 632,261, 620,278, 607,284, 602,299, 612,310, 644,316, 651,342, 665,341, 666,327, 662,315, 681,312, 694,299, 684,282, 677,283, 652,250, 672,249, 727,199, 652,198, 644,142"/></a>
+                        <a xlink:href="#5" title=""><polygon id="obj5" class="obj" points="188,238, 20,412, 127,418, 166,378, 174,447, 203,449, 230,369, 306,270"/></a>
+                        <a xlink:href="#6" title=""><polygon id="obj6" class="obj" points="386,240, 401,411, 551,411, 553,355, 524,326, 469,289, 468, 251, 447,246, 428,251, 417,284, 406,240"/></a>
+                        <a xlink:href="#7" title=""><polygon id="obj7" class="obj" points="792,290, 783,338, 826,433, 954,434, 972,332, 967,315, 910,314, 896,261, 877,262, 851,282, 824,270"/></a>
+                        <a xlink:href="#8" title=""><polygon id="obj8" class="obj" points="831,452, 824,480, 829,495, 840,496, 846,506, 1015,507, 1019,479, 997,452"/></a>
+                        <a xlink:href="#9" title=""><polygon id="obj9" class="obj" points="663,501, 660,545, 673,563, 705,577, 747,580, 778,568, 787,552, 787,518, 764,496, 727,486, 692,488"/></a>
+                        <a xlink:href="#10" title=""><polygon id="obj10" class="obj" points="513,457, 515,491, 546,511, 585,514, 614,506, 626,487, 626,457, 606,441, 578,435, 543,437"/></a>
+                        <a xlink:href="#11" title=""><polygon id="obj11" class="obj" points="176,530, 180,561, 443,561, 457,480, 455,452, 221,451, 199,474"/></a>
+                        <a xlink:href="#12" title=""><polygon id="obj12" class="obj" points="1,587, 1,629, 1074,630, 1074,587"/></a>
+                    </svg>
+                </td>
+                <td style="vertical-align: top;background: white">
+                    <img src='./data/graph.png'>
+                    <div id="desc">
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div style="display: none;">
+        <div id="data1obj" style="position:absolute; left: 300px;">
+            Экскавация: план\факт: <span style="color: #00b050;">65%</span><br>
+            Дней без травм: <span style="color: #00b050;">142</span><br>
+            Персонал на смене: 14(<span style="color: #c23e3e;">2</span>)<br>
+            ТОиР: <span style="color: #bf9000;">4 из 8</span><br>
+            Количество нарядов: 12<br>
+            Количество нарушений: 4(<span style="color: #c23e3e;">1</span>)<br>
+            Уровень риска: <span style="color: #00b050;">1</span>
+        </div>
+        <div id="data2obj" style="position:absolute; left: 300px;">
+            БВР: план\факт <span style="color: #00b050;">67</span>
+            Количество нарядов: 4<br>
+            Количество нарушений: 5(<span style="color: #c23e3e;">2</span>)<br>
+            Уровень риска: <span style="color: #00b050;">2</span>
+        </div>
+        <div id="data3obj" style="position:absolute; left: 300px;">
+            Автоцех: план\факт <span style="color: #00b050;">70</span>
+            Количество нарядов: 7<br>
+            Количество нарушений: 9(<span style="color: #c23e3e;">3</span>)<br>
+            Уровень риска: <span style="color: #00b050;">2</span>
+        </div>
+
+            <div id="data1">
+                Экскавация: план\факт: <span style="color: #00b050;">65%</span><br>
+                Дней без травм: <span style="color: #00b050;">142</span><br>
+                Персонал на смене: 14(<span style="color: #c23e3e;">2</span>)<br>
+                ТОиР: <span style="color: #bf9000;">4 из 8</span><br>
+                Количество нарушений: 4(<span style="color: #c23e3e;">1</span>)<br>
+                Уровень риска: <span style="color: #00b050;">1</span>
+            </div>
+            <div id="data2">
+                Автоцех: план\факт <span style="color: #00b050;">70</span>
+            </div>
+            <div id="data3">
+                БВР: план\факт <span style="color: #00b050;">67</span>
+            </div>
+            <div id="data4">
+                Вспом. Техника и насосы: <span style="color: #00b050;">58</span>
+            </div>
+            <div id="data5">
+                Автоцех: план\факт <span style="color: #00b050;">70%</span>
+            </div>
+            <div id="data6">
+                Автоцех: план\факт <span style="color: #00b050;">70%</span>
+            </div>
+            <div id="data7">
+                Автоцех: план\факт <span style="color: #00b050;">70%</span>
+            </div>
+            <div id="data8">
+                Автоцех: план\факт <span style="color: #00b050;">70%</span>
+            </div>
+            <div id="data9">
+                Автоцех: план\факт <span style="color: #00b050;">70%</span>
+            </div>
+            <div id="data10">
+                Автоцех: план\факт <span style="color: #00b050;">70%</span>
+            </div>
+            <div id="data11">
+                Автоцех: план\факт <span style="color: #00b050;">70%</span>
+            </div>
+            <div id="data12">
+                Автоцех: план\факт <span style="color: #00b050;">70%</span>
+            </div>
+        </div>
+    </body>
+</html>

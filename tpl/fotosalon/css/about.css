@@ -1,0 +1,436 @@
+
+
+@font-face {
+font-family: "Lato";
+src: url("/tpl/static/fonts/lato") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+
+.d7:after {
+    content:"";
+    clear:both;
+    display:table
+}
+
+.d7 form {
+    width: auto;
+    float: right;
+    margin-right: 30px;
+}
+
+.d7 input {
+    width: 250px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background: #F9F0DA;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+
+.d7 input:focus {
+    width: 300px;
+}
+#header {
+    position: relative;
+    z-index: 30;
+    background-color: #C9506E;
+}
+
+#topLine {
+    background-color: #1f1f1f;
+    position: relative;
+}
+
+@media (min-width: 1200px)
+    .container {
+        width: 1170px;
+        max-width: 100%;
+    }
+@media (min-width: 1200px)
+    .container, .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+@media (min-width: 992px)
+    .container {
+        width: 960px;
+        max-width: 100%;
+    }
+@media (min-width: 992px)
+    .container, .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+@media (min-width: 768px)
+    .container {
+        width: 720px;
+        max-width: 100%;
+    }
+@media (min-width: 768px)
+    .container, .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+@media (min-width: 576px)
+    .container {
+        width: 540px;
+        max-width: 100%;
+    }
+@media (min-width: 576px)
+    .container, .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .container, .container-fluid {
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        position: relative;
+    }
+
+    #topLineNav {
+        /*margin-left: 190px;*/
+        padding: 21px 0;
+    }
+
+    opLineNav>ul>li:first-child {
+        margin-left: 0;
+    }
+    #topLineNav>ul>li {
+        margin-left: 35px;
+    }
+
+@media (min-width: 1200px)
+    .container {
+        width: 1170px;
+        max-width: 100%;
+    }
+@media (min-width: 1200px)
+    .container, .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+@media (min-width: 992px)
+    .container {
+        width: 960px;
+        max-width: 100%;
+    }
+@media (min-width: 992px)
+    .container, .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+@media (min-width: 768px)
+    .container {
+        width: 720px;
+        max-width: 100%;
+    }
+@media (min-width: 768px)
+    .container, .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+@media (min-width: 576px)
+    .container {
+        width: 540px;
+        max-width: 100%;
+    }
+@media (min-width: 576px)
+    .container, .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .container, .container-fluid {
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        position: relative;
+    }
+
+
+#topHeaderNav {
+    /*margin-left: 190px;*/
+    padding: 15px 0;
+}
+.footerFixed {
+    padding: 35px 0;
+    background-color: #1f1f1f;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+@media (min-width: 1200px)
+    .container {
+        width: 1170px;
+        max-width: 100%;
+    }
+
+@media (min-width: 1200px)
+    .container, .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+@media (min-width: 992px)
+    .container {
+        width: 960px;
+        max-width: 100%;
+    }
+
+@media (min-width: 992px)
+    .container, .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+@media (min-width: 768px)
+    .container {
+        width: 720px;
+        max-width: 100%;
+    }
+
+@media (min-width: 768px)
+    .container, .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+@media (min-width: 576px)
+    .container {
+        width: 540px;
+        max-width: 100%;
+    }
+
+@media (min-width: 576px)
+    .container, .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .container, .container-fluid {
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        position: relative;
+    }
+
+@media (min-width: 1200px)
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+@media (min-width: 992px)
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+@media (min-width: 768px)
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+@media (min-width: 576px)
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+#footer .leftFooter {
+    width: 215px;
+    border-right: 1px solid #3d3d3d;
+}
+
+.rightFooter {
+    padding-left: 38px;
+    width: calc(100% - 215px);
+}
+
+.footerFirstNav {
+    margin-bottom: 38px;
+}
+
+.footerSecondNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    font-weight:lighter ;
+}
+
+ul.reset, nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    background-color: #1f1f1f;
+    /*height: 408px;*/
+    /*height: 460px;*/
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    font-weight: bold;
+    color: #303338;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #FEF301;
+}
+
+#topLineNav>ul {
+    display: flex;
+    align-items: center;
+}
+
+ul.reset, nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+#topHeaderNav>ul {
+    display: flex;
+    align-items: center;
+}
+
+ul.reset, nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#topHeaderNav>ul>li:first-child {
+    margin-left: 0;
+}
+#topHeaderNav>ul>li {
+    margin-left: 100px;
+    position: relative;
+}
+
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.search input {
+    width: 160px;
+    width: 155px;
+    height: 32px;
+    background-color: #484848;
+    border-radius: 5px;
+    border: none;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    color: #757575;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 9px;
+    outline: none;
+}
+
+.search input {
+    width: 160px;
+    width: 155px;
+    height: 32px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 9px;
+    outline: none;
+}
+
+.search .btnSearch {
+    font-size: 20px;
+    line-height: 20px;
+    color: #f4ae1e;
+    display: block;
+    position: absolute;
+    top: 6px;
+    right: 9px;
+    text-decoration: none;
+}
+
+.if {
+    font-family: 'IconFont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.search {
+    margin-left: 42px;
+}
+
+
+.photography_services {
+    background: url("/tpl/static/images/photographyservices.svg") no-repeat;
+    height: 265px;
+    color: white;
+    font-weight: 500;
+    padding: 30px;
+}
+
+.internet_shop {
+    background: url("/tpl/static/images/internetshop.svg") no-repeat;
+    height: 265px;
+    color: white;
+    font-weight: 500;
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.selected_text {
+    color: #C9506E;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main_text {
+    color: black;
+    font-size: 14px;
+}
+
+#map {
+    width: 100%; /* Ширина карты */
+    height: 400px; /* Высота карты */

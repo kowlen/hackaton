@@ -1,0 +1,1 @@
+2021-03-09 22:53:36: file_put_contents(C:\Apache24\htdocs\inc_libs\qrcode\cache\frame_1.dat): failed to open stream: No such file or directory2021-03-09 22:53:37: file_put_contents(C:\Apache24\htdocs\inc_libs\qrcode\cache\frame_1.dat): failed to open stream: No such file or directory

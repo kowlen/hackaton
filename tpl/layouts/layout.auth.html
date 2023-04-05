@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Авторизация</title>
+
+    <link rel="stylesheet" href="/tpl/plugins/bootstrap4/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/tpl/layouts/css/layout.auth.css">
+
+    <script src="/tpl/plugins/jquery3.3.1.min.js" type="text/javascript"></script>
+    <script src="/tpl/layouts/js/layout.auth.js" type="text/javascript"></script>
+</head>
+<body class="text-center d-flex justify-content-center align-items-center">
+
+<form class="form-signin" method="post">
+    <input type="text" class="w-100 form-control form-control-sm" id="login" placeholder="Введите логин" required />
+    <input type="password" class="w-100 form-control form-control-sm" id="password" placeholder="Введите пароль" required autocomplete="on"/>
+    <span class="text-danger " id="error-wrap"></span>
+    <button class="btn btn-sm btn-success btn-block" type="submit" onclick="event.preventDefault();auth()">Войти</button>
+</form>
+</body>
+</html>

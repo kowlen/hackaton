@@ -1,0 +1,635 @@
+<link rel="stylesheet" href="/tpl/fotosalon/css/photodocuments.css">
+
+
+
+<div class="photodocuments_banner ">
+</div>
+<div class="photodocuments_info ">
+    <div class="col-12 photodocuments_text">
+        <h2 class="h2 title text-uppercase text-left">Фото на документы</h2>
+        <button type="button" class="btn btn-sm photodocuments_btn">Заказать</button>
+    </div>
+</div>
+<div class="container mb-4 mt-4">
+    <div class="row">
+        <div class="col-1 image_icon_home">
+            <a href="/pages/">
+                <img class="img_icon_home" src="/tpl/static/images/home.svg" alt="">
+            </a>
+        </div>
+        <div class="col-7 col-md-4">
+            <h5 class="h5 title text-left ">Фото на документы</h5>
+        </div>
+        <div class="col-2 col-md-3">
+            <h6 class="h6 title text-right">Состав заказа</h6>
+        </div>
+        <div class="col-2 text-right">
+            <button type="button" class="btn btn-sm photodocuments_zakaz">Заказать</button>
+        </div>
+    <div class="col-12 text-left mt-4">
+        <p class="main_text">
+            Перед загрузкой фотографии обязательно ознакомьтесь с требованиями
+        </p>
+    </div>
+        <div class="col-12 text-left mt-4 white_block">
+            <div class="p-4">
+                <div class="col-12">
+                    <p class="requirements_start">
+                        Требования для фотографий:
+                        <br>
+                        <br>
+                        1. Овал лица на фотографии должен располагаться строго в центре снимка, строго в анфас, без наклона и поворота головы.
+                        <br>
+                        2. Взгляд фотографируемого человека должен быть направлен прямо в объектив.
+                        <br>
+                    </p>
+                    <div id="spol" style="display:none">
+                        3. Лицо должно быть нейтральным, сильные улыбки или сжатие губ не допускается.
+                        <br>
+                        4. Глаза полностью открыты и хорошо видны.
+                        <br>
+                        5. Головные уборы и темные очки на фотографии не допускаются.
+                        <br>
+
+                        6. Если человек постоянно носит оптические очки при плохом зрении, то и фотографироваться желательно в очках (без затемнения). При этом нужно соблюдать требования пункта №4.
+                        <br>
+                        7. Допускается несильный макияж, не скрывающий или сильно изменяющий черты лица.
+                        <br>
+                        8. Изображение должно быть резким и четким.
+                        <br>
+                        9. Равномерное освещение, без бликов, засвеченных участков, резких теней и контрастов.
+                        <br>
+                        10. Фон должен быть однородным, без фактуры, цвет фона светлее лица.
+                        <br>
+                        11. Фотография должна быть сделана не более 6 месяцев назад
+                    </div>
+                    <a class="requirements" onclick="$('#spol').slideToggle('slow');" href="javascript://">Читать все требования</a>
+
+
+<!--                        <div id="crossing">-->
+<!--                            <ul>-->
+<!--                                <li><a href="#">Название 1</a></li>-->
+<!--                                <li><a href="#">Название 2</a></li>-->
+<!--                                <li><a href="#">Название 3</a></li>-->
+<!--                                <li><a href="#">Название 4</a></li>-->
+<!--                                <li><a href="#">Название 5</a></li>-->
+<!--                                <li><a href="#">Название 6</a></li>-->
+<!--                                <li><a href="#">Название 7</a></li>-->
+<!--                                <li><a href="#">Название 8</a></li>-->
+<!--                                <li id="control">Развернуть/Свернуть</li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+
+
+                </div>
+            </div>
+        </div>
+<!--        <div class="col-12 text-left mt-4 white_block">-->
+<!--            <div class="p-4">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-12">-->
+<!--                        <p class="text-center">-->
+<!--                            Перетащите сюда файлы или <span class="choice_text">выберите</span>-->
+<!--                            <br>-->
+<!--                            <br>-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                    <div class="col-4 container">-->
+<!--                        <div class="item text-center">-->
+<!--                           <img src="/tpl/static/images/pk.svg">-->
+<!--                        </div>-->
+<!--                        <div class="item text-center">-->
+<!--                            <p>С устройства</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-4 container">-->
+<!--                        <div class="item text-center">-->
+<!--                            <img src="/tpl/static/images/vk.svg">-->
+<!--                        </div>-->
+<!--                        <div class="item text-center">-->
+<!--                            <p>В контакте</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-4 container">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-6">-->
+<!--                                <div class="item text-right">-->
+<!--                                    <img src="/tpl/static/images/wa.svg">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-6">-->
+<!--                                <div class="item text-left">-->
+<!--                                    <img src="/tpl/static/images/tg.svg">-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+<!--                        </div>-->
+<!--                        <div class="item text-center">-->
+<!--                            <p>Мессенджеры</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-12 text-left mt-4">-->
+<!--            <div class="row ">-->
+<!--                <div class="col-1 block_load m-2">-->
+<!--                </div>-->
+<!--                <div class="col-1 block_load m-2">-->
+<!--                </div>-->
+<!--                <div class="col-1 block_load m-2">-->
+<!--                </div>-->
+<!--                <div class="col-1 block_load m-2">-->
+<!--                </div>-->
+<!--                <div class="col-1 block_load m-2">-->
+<!--                </div>-->
+<!--                <div class="col-1 block_load m-2">-->
+<!--                </div>-->
+<!--                <div class="col-1 block_load m-2">-->
+<!--                </div>-->
+<!--                <div class="col-1 block_load m-2">-->
+<!--                </div>-->
+<!--                <div class="col-1 block_load m-2">-->
+<!--                </div>-->
+<!--                <div class="col-1 block_load m-2">-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--        </div>-->
+<!--        <div class="col-12 text-left mt-4 purple_block">-->
+<!--            <div class="row">-->
+<!--                <div class="col-3">-->
+<!--                    <form>-->
+<!--                        <div class="form-group p-3">-->
+<!--                            <label for="InputForm">Выберите тип документа</label>-->
+<!--&lt;!&ndash;                                <input type="" class="form-control-photo" id="InputForm" aria-describedby="" placeholder="Паспорт РФ 35*45 мм">&ndash;&gt;-->
+<!--                            <a class="btn dropdown-toggle form-control-photo " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                                Паспорт РФ 35*45 мм-->
+<!--                            </a>-->
+<!--                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">-->
+<!--                                <a class="dropdown-item" href="#">Паспорт РФ 35*45 мм</a>-->
+<!--                                <a class="dropdown-item" href="#">Паспорт РФ 35*45 мм</a>-->
+<!--                                <a class="dropdown-item" href="#">Паспорт РФ 35*45 мм</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                </div>-->
+<!--                <div class="col-3">-->
+<!--                    <form>-->
+<!--                        <div class="form-group p-3">-->
+<!--                            <label for="InputForm">Укажите количество</label>-->
+<!--                            <input type="" class="form-control-photo" id="InputForm" aria-describedby="" placeholder="1 шт.">-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                </div>-->
+<!--                <div class="col-3">-->
+<!--                    <form>-->
+<!--                        <div class="form-group p-3">-->
+<!--                            <label for="InputForm">Уголок</label>-->
+<!--                            <a class="btn dropdown-toggle form-control-photo " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                                Да-->
+<!--                            </a>-->
+<!--                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">-->
+<!--                                <a class="dropdown-item" href="#">Да</a>-->
+<!--                                <a class="dropdown-item" href="#">Нет</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                </div>-->
+<!--                <div class="col-3">-->
+<!--                    <form>-->
+<!--                        <div class="form-group p-3">-->
+<!--                            <label for="InputForm">Положение уголка   </label>-->
+<!--                            <a class="btn dropdown-toggle form-control-photo " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                                Да-->
+<!--                            </a>-->
+<!--                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">-->
+<!--                                <a class="dropdown-item" href="#">Слева</a>-->
+<!--                                <a class="dropdown-item" href="#">Справа</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--                <div class="col-3 pb-3" style="padding-left: 30px;">-->
+<!--                    <button type="button" class="btn btn-sm white_btn">Монохром</button>-->
+<!--                </div>-->
+<!--                <div class="col-3 pb-3" style="padding-left: 30px;">-->
+<!--                    <button type="button" class="btn btn-sm white_btn">Предпросмотр фотографии</button>-->
+<!--                </div>-->
+<!--                <div class="col-3">-->
+
+<!--                </div>-->
+<!--                <div class="col-3">-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-12 text-center pt-4">-->
+<!--            <div class="example-2">-->
+<!--                <div class="form-group">-->
+<!--                    <input type="file" name="file" id="file" class="input-file">-->
+<!--                    <label for="file" class="btn btn-tertiary js-labelFile">-->
+<!--                        <i class="fas fa-plus"></i>-->
+<!--                        <span class="js-fileName">Добавить еще</span>-->
+<!--                    </label>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-12 viewing">-->
+<!--        </div>-->
+<!--        <div class="col-12 text-center pt-4">-->
+<!--            <button type="button" class="btn btn-sm order_btn text-center">Оформить заказ</button>-->
+<!--        </div>-->
+        <div class="col-12 text-left mt-4 white_block">
+            <div class="p-4">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center">
+                            Перетащите сюда файлы или <span class="choice_text">выберите</span>
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                    <div class="col-4 container large_block">
+                        <div class="item text-center">
+                            <img src="/tpl/static/images/pk.svg">
+                        </div>
+                        <div class="item text-center">
+                            <p>С устройства</p>
+                        </div>
+                    </div>
+                    <div class="col-4 container large_block">
+                        <div class="item text-center">
+                            <img src="/tpl/static/images/vk.svg">
+                        </div>
+                        <div class="item text-center">
+                            <p>В контакте</p>
+                        </div>
+                    </div>
+                    <div class="col-4 container large_block">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="item text-right">
+                                    <img src="/tpl/static/images/wa.svg">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="item text-left">
+                                    <img src="/tpl/static/images/tg.svg">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item text-center">
+                            <p>Мессенджеры</p>
+                        </div>
+                    </div>
+                    <div class="col-12 container mobile_block">
+                        <div class="item text-center">
+                            <img src="/tpl/static/images/pk.svg">
+                        </div>
+                        <div class="item text-center">
+                            <p>С устройства</p>
+                        </div>
+                    </div>
+                    <div class="col-12 container mobile_block">
+                        <div class="item text-center">
+                            <img src="/tpl/static/images/vk.svg">
+                        </div>
+                        <div class="item text-center">
+                            <p>В контакте</p>
+                        </div>
+                    </div>
+                    <div class="col-12 container mobile_block">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="item text-right">
+                                    <img src="/tpl/static/images/wa.svg">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="item text-left">
+                                    <img src="/tpl/static/images/tg.svg">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item text-center">
+                            <p>Мессенджеры</p>
+                        </div>
+                    </div>
+
+                    <!--                        <div class="row mobile_block">-->
+                    <!--                            <div class="col-12 container mobile_block">-->
+                    <!--                                <div class="item text-center">-->
+                    <!--                                    <img src="/tpl/static/images/pk.svg">-->
+                    <!--                                </div>-->
+                    <!--                                <div class="item text-center">-->
+                    <!--                                    <p>С устройства</p>-->
+                    <!--                                </div>-->
+                    <!--                            </div>-->
+                    <!--                            <div class="col-12 container mobile_block">-->
+                    <!--                                <div class="item text-center">-->
+                    <!--                                    <img src="/tpl/static/images/vk.svg">-->
+                    <!--                                </div>-->
+                    <!--                                <div class="item text-center">-->
+                    <!--                                    <p>В контакте</p>-->
+                    <!--                                </div>-->
+                    <!--                            </div>-->
+                    <!--                            <div class="col-12 container mobile_block">-->
+                    <!--                                <div class="row">-->
+                    <!--                                    <div class="col-6">-->
+                    <!--                                        <div class="item text-right">-->
+                    <!--                                            <img src="/tpl/static/images/wa.svg">-->
+                    <!--                                        </div>-->
+                    <!--                                    </div>-->
+                    <!--                                    <div class="col-6">-->
+                    <!--                                        <div class="item text-left">-->
+                    <!--                                            <img src="/tpl/static/images/tg.svg">-->
+                    <!--                                        </div>-->
+                    <!--                                    </div>-->
+                    <!--    -->
+                    <!--                                </div>-->
+                    <!--                                <div class="item text-center">-->
+                    <!--                                    <p>Мессенджеры</p>-->
+                    <!--                                </div>-->
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+                </div>
+            </div>
+            <div class="col-12 text-left mt-4">
+                <div class="row lg_load">
+                    <div class="col-1 block_load m-2">
+                    </div>
+                    <div class="col-1  block_load m-2">
+                    </div>
+                    <div class="col-1  block_load m-2">
+                    </div>
+                    <div class="col-1  block_load m-2">
+                    </div>
+                    <div class="col-1  block_load m-2">
+                    </div>
+                    <div class="col-1  block_load m-2">
+                    </div>
+                    <div class="col-1  block_load m-2">
+                    </div>
+                    <div class="col-1 block_load m-2">
+                    </div>
+                    <div class="col-1  block_load m-2">
+                    </div>
+                    <div class="col-1  block_load m-2">
+                    </div>
+                </div>
+                <div class="row md_load justify-content-center">
+                    <div class="col-2 block_load m-2">
+                    </div>
+                    <div class="col-2 block_load m-2">
+                    </div>
+                    <div class="col-2 block_load m-2">
+                    </div>
+                    <div class="col-2 block_load m-2">
+                    </div>
+                    <div class="col-2 block_load m-2">
+                    </div>
+                    <div class="col-2 block_load m-2">
+                    </div>
+                    <div class="col-2 block_load m-2">
+                    </div>
+                    <div class="col-2 block_load m-2">
+                    </div>
+                    <div class="col-2 block_load m-2">
+                    </div>
+                    <div class="col-2 block_load m-2">
+                    </div>
+                </div>
+                <div class="row xs_load">
+                    <div class="col-3 block_load m-2">
+                    </div>
+                    <div class="col-3 block_load m-2">
+                    </div>
+                    <div class="col-3 block_load m-2">
+                    </div>
+                    <div class="col-3 block_load m-2">
+                    </div>
+                    <div class="col-3 block_load m-2">
+                    </div>
+                    <div class="col-3 block_load m-2">
+                    </div>
+                    <div class="col-3 block_load m-2">
+                    </div>
+                    <div class="col-3 block_load m-2">
+                    </div>
+                    <div class="col-3 block_load m-2">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 text-left mt-4 purple_block">
+                <div class="row lg_spisok">
+                    <div class="col-3 col-xs-4">
+                        <form>
+                            <div class="form-group p-3">
+                                <label for="InputForm">Выберите тип документа</label>
+                                <select class="form-control-photo">
+                                    <option>Паспорт РФ 35*45 мм</option>
+                                    <option>Загранпаспорт на 5 лет 35*45мм</option>
+                                    <option>Загранпаспорт на 10 лет 35*45мм  </option>
+                                    <option>Карта для  СКЗИ/ЕСТР  35*45 мм</option>
+                                    <option>Военный билет 30*40 мм</option>
+                                    <option>Военный билет 25*35 мм</option>
+                                    <option>Зачетная книжка 30*40 мм</option>
+                                    <option>Студенческий 30*40 мм</option>
+                                    <option>Трудовая книжка 30*40 мм</option>
+                                    <option>Мед. книжка 30*40 мм</option>
+                                    <option>Удостоверения 30*40 мм</option>
+                                    <option>Пенсионное 30*40 мм</option>
+                                    <option>Пенсионное 30*40 мм</option>
+                                    <option>Разрешение на оружие  30*40 мм</option>
+                                    <option>Виза Шенген 35*45 мм</option>
+                                    <option>Виза Япония 45*45 мм</option>
+                                    <option>Виза Великобритания 35*45 мм</option>
+                                    <option>Виза США  50*50 мм</option>
+                                    <option>Виза Канада 35*45 мм</option>
+                                    <option>Виза ОАЭ 43*55 мм</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-3 col-xs-3">
+                        <form>
+                            <div class="form-group p-3">
+                                <label for="InputForm">Укажите количество</label>
+                                <select class="form-control-photo">
+                                    <option>Глянцевая</option>
+                                    <option>Матовая</option>
+                                    <option>Супер-глянцевая</option>
+                                    <option>Сатин</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-3 col-xs-3">
+                        <form>
+                            <div class="form-group p-3">
+                                <label for="InputForm">Уголок</label>
+                                <select class="form-control-photo">
+                                    <option>Да</option>
+                                    <option>Нет</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-3 col-xs-3">
+                        <form>
+                            <div class="form-group p-3">
+                                <label for="InputForm">Положение уголка</label>
+                                <select class="form-control-photo">
+                                    <option>Слева</option>
+                                    <option>Справа</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <!--                    <div class="col-3">-->
+                    <!--                        <form>-->
+                    <!--                            <div class="form-group p-3">-->
+                    <!--                                <label for="InputForm">Печать фотографий в исходном формате <span class="read" style="">(читать)</span></label>-->
+                    <!--                                <input type="" class="form-control-photo" id="InputForm" aria-describedby="" placeholder="1 шт.">-->
+                    <!--                            </div>-->
+                    <!--                        </form>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="col-3">-->
+                    <!--                        <form>-->
+                    <!--                            <div class="form-group p-3">-->
+                    <!--                                <label for="InputForm">Уголок</label>-->
+                    <!--                                <a class="btn dropdown-toggle form-control-photo " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                    <!--                                    Да-->
+                    <!--                                </a>-->
+                    <!--                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">-->
+                    <!--                                    <a class="dropdown-item" href="#">Да</a>-->
+                    <!--                                    <a class="dropdown-item" href="#">Нет</a>-->
+                    <!--                                </div>-->
+                    <!--                            </div>-->
+                    <!--                        </form>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="col-3">-->
+                    <!--                        <form>-->
+                    <!--                            <div class="form-group p-3">-->
+                    <!--                                <label for="InputForm">Положение уголка   </label>-->
+                    <!--                                <a class="btn dropdown-toggle form-control-photo " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                    <!--                                    Да-->
+                    <!--                                </a>-->
+                    <!--                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">-->
+                    <!--                                    <a class="dropdown-item" href="#">Слева</a>-->
+                    <!--                                    <a class="dropdown-item" href="#">Справа</a>-->
+                    <!--                                </div>-->
+                    <!--                            </div>-->
+                    <!--                        </form>-->
+                    <!--                    </div>-->
+                </div>
+                <div class="row sm_spisok p-3">
+                    <div class="col-12">
+                        <div class="form-group m-0">
+                            <label for="InputForm">Выберите размер фото</label>
+                        </div>
+                    </div>
+                    <div class="col-12 m-0">
+                        <form>
+                            <div class="form-group">
+                                <select class="form-control-photo">
+                                    <option>10*15 см</option>
+                                    <option>13*18 см</option>
+                                    <option>15*21 см</option>
+                                    <option>21*30 см</option>
+                                    <option>29,7*42 см</option>
+                                    <option>42*59,4 см</option>
+                                    <option>59,4*84,1 см</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 m-0">
+                        <div class="form-group">
+                            <label for="InputForm">Выберите тип бумаги</label>
+                        </div>
+                    </div>
+                    <div class="col-12 m-0">
+                        <form>
+                            <div class="form-group">
+                                <select class="form-control-photo">
+                                    <option>Глянцевая</option>
+                                    <option>Матовая</option>
+                                    <option>Супер-глянцевая</option>
+                                    <option>Сатин</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 m-0">
+                        <div class="form-group">
+                            <label for="InputForm">Печать фотографий в исходном формате <span class="read" style="">(читать)</label>
+                        </div>
+                    </div>
+                    <div class="col-12 m-0">
+                        <form>
+                            <div class="form-group">
+                                <select class="form-control-photo">
+                                    <option>Да</option>
+                                    <option>Нет</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 pb-3" style="padding-left: 30px;">
+                        <button type="button" class="btn btn-sm white_btn btn_monohrom">Монохром</button>
+                    </div>
+                    <div class="col-5 pb-3" style="padding-left: 30px;">
+                        <button type="button" class="btn btn-sm white_btn btn_prosmotr">Предпросмотр фотографии</button>
+                    </div>
+                    <div class="col-4" style="padding-left: 30px;">
+                        <p><a class="watch" href="/">Посмотреть прайс можно <span class="watch_here">здесь</span></a></p>
+                    </div>
+                    <!--                <div class="2">-->
+
+                    <!--                </div>-->
+                </div>
+                <div class="row">
+                    <div class="col-6 pb-3" style="padding-left: 30px;">
+                        <p class="price">Итого к печати: <span class="text_price">600 руб.</span></p>
+                    </div>
+                    <div class="col-6 pb-3" style="padding-left: 30px;">
+                        <p class="price">Итого к оплате: <span class="text_price">600 руб.</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center pt-4 container" style="width: 100%;">
+                <div class="example-2 text-right" style="width: 50%; float: left">
+                    <div class="form-group">
+                        <input type="file" name="file" id="file" class="input-file">
+                        <label for="file" class="btn btn-tertiary js-labelFile">
+                            <img class="plus" src="/tpl/static/images/plus.svg"><span class="js-fileName">Добавить еще</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="text-left" style="width: 50%;float: right;">
+                    <button type="button" class="btn btn-sm white_btn">Применить ко всем</button>
+                </div>
+            </div>
+            <div class="col-12 viewing">
+
+            </div>
+<!--            <div class="col-12 text-center pt-4">-->
+<!--                <button type="button" class="btn btn-sm order_btn text-center">Оформить заказ</button>-->
+<!--            </div>-->
+        </div>
+        <div class="col-12 text-center pt-4">
+            <button type="button" class="btn btn-sm order_btn text-center">Оформить заказ</button>
+        </div>
+    </div>
+</div>
+
+

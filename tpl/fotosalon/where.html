@@ -1,0 +1,64 @@
+
+<div id="main">
+    <div class="container mb-4 mt-4">
+        <div class="row">
+            <a href="/pages/">
+                <div class="col-1 image_icon_home">
+                    <img class="img_icon_home" src="/tpl/static/images/home.svg" alt="">
+                </div>
+            </a>
+            <div class="col-11">
+                <h5 class="h5 title text-left">Где мы находимся</h5>
+            </div>
+            <div class="col-12 text-left mt-4">
+                <p class="main_text">
+                    Доставка заказов осуществляется бесплатно по г. Кемерово при сумме заказа от 2000 тысяч рублей.
+                    Выбор способа доставки осуществляется при оформлении заказа.
+                </p>
+                <p class="main_text" style="padding-top: 10px;">
+                    <span style="font-weight: bold;">Способы оплаты:</span>
+                    <ul style="list-style: disc">
+                        <li>Банковская карта- пластиковой картой Visa | Mastercard</li>
+                        <li>Наличными в фотосалонах.</li>
+                        <li>Выставление счёта для юр. лиц. Для этого потребуется:</li>
+                            <ul style="list-style: decimal;padding-top: 5px;">
+                                <li>Отправить реквизиты</li>
+                                <li>Оставить комментарий к заказу, с просьбой о выставлении счёта.</li>
+                            </ul>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div id="map" style="width:100%;height:400px;"></div>
+                <script>
+                    function myMap() {
+                        var mapCanvas = document.getElementById("map");
+                        var mapOptions = {
+                            center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+                        };
+                        var map = new google.maps.Map(mapCanvas, mapOptions);
+                    }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR8P72HMX3zllKeeZt8X89dJWMEu0LSX8&callback=myMap" async defer></script>
+            </div>
+            <div class="col-6">
+                <div id="map2" style="width:100%;height:400px;"></div>
+                <script>
+                    function myMap2() {
+                        var mapCanvas = document.getElementById("map");
+                        var mapOptions = {
+                            center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+                        };
+                        var map2 = new google.maps.Map(mapCanvas, mapOptions);
+                    }
+                </script>
+                <script src="https://www.google.com/maps/place/%D0%A6%D0%B8%D1%84%D1%80%D0%B0/@55.3919653,86.0129925,17z/data=!3m1!4b1!4m5!3m4!1s0x42d80afa5e35e965:0x83d0517e83fe999a!8m2!3d55.3919094!4d86.0153425?hl=myMap2" async defer></script>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+

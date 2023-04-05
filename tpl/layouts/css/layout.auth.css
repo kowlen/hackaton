@@ -1,0 +1,9 @@
+body{
+    height: 100vh;
+}
+
+.form-signin{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
